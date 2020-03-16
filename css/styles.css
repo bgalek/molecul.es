@@ -22,6 +22,7 @@ section p {
 
 section.hero {
     font-family: var(--display-text-font);
+    min-height: 800px;
 }
 
 section.hero p {
@@ -59,7 +60,7 @@ section.hero p {
     }
 }
 
-section.dark {
+.dark {
     background: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(0, 0, 0, 0.8));
 }
 
@@ -99,4 +100,8 @@ section.dark {
     100% {
         transform: translateY(0);
     }
+}
+
+footer {
+    font-size: 0.75rem;
 }
